@@ -147,7 +147,7 @@ Widget newTextWidget(hint, IconData icon) {
           return hint;
         }
       },
-      keyboardType: TextInputType.number,
+      keyboardType: TextInputType.text,
       decoration: new InputDecoration(
         enabledBorder: const OutlineInputBorder(
             borderSide: BorderSide(color: GREY, width: 0.1),

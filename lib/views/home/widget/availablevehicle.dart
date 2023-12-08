@@ -61,7 +61,7 @@ class _AvailableVehicleState extends State<AvailableVehicle> {
   availableVehicles(title, subtitle, image) {
     TextStore textStore = new TextStore(context);
     return Card(
-      elevation: 0.3,
+      elevation: 0.8,
       surfaceTintColor: WHITE,
       borderOnForeground: false,
       child: Container(

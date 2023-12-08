@@ -27,8 +27,12 @@ class _TrackingScreenState extends State<TrackingScreen> {
         ),
         tinySpace(),
         Card(
-          elevation: 0.3,
+          elevation: 0.8,
           surfaceTintColor: WHITE,
+          clipBehavior: Clip.antiAliasWithSaveLayer,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20),
+          ),
           child: Container(
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 10),
